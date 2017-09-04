@@ -1,0 +1,109 @@
+#rma-widget, #ad-container, #ad-content {
+    width: 320px;
+    height: 480px;
+}
+
+#ad-content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  pointer-events: none;
+}
+
+#ad-content *:not(#book) {
+  pointer-events: none;
+}
+
+#swipe {
+  position: absolute;
+  bottom: 0;
+}
+
+.scratchcard canvas {
+  left: -1px;
+}
+
+#details {
+  display: none;
+  position: absolute;
+  pointer-events: none;
+  top: 0;
+  left: 0;
+}
+
+#book {
+  position: absolute;
+  bottom: 9px;
+  left: 7px;
+  display: none;
+  z-index: 101;
+}
+
+#bg {
+  position: absolute;
+  pointer-events: none;
+  top: 0;
+  left: 0;
+}
+
+#hand {
+  position: absolute;
+  bottom: 10px;
+  right: 20px;
+  animation: handAnimation 1s linear infinite;
+}
+
+#title {
+  animation: 0.4s titleAnim 0s linear 2;
+  opacity: 0;
+  pointer-events: none;
+  position: absolute;
+  top: 230px;
+}
+
+@keyframes titleAnim {
+  0% {
+    opacity: 0;
+  }
+  30% {
+    filter: blur(10px);
+    opacity: 0.6;
+  }
+  60% {
+    filter: blur(0px);
+    opacity: 0.3;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes handAnimation {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(5px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+img {
+  padding: 0;
+  margin: 0;
+}
+
+.bg {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.preloaders {
+  position: absolute;
+  height: 0px !important;
+  width: 0px !important;
+}

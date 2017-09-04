@@ -1,0 +1,23 @@
+{
+  "sections": [{
+    "name": "Assets",
+    "inputs": [{
+        "title": "Initial Background",
+        "value": "img/bg.png",
+        "placeholder": "",
+        "inputClass": "",
+        "target": "bg1"
+      }]
+  }],
+  "property": {
+    "bgDark": "img/halo-img-01.png",
+    "bgScratched": "img/halo-img-02.png",
+    "bgDetailed": "img/halo-img-03.png",
+    "hand": "img/hand.png",
+    "headline": "img/headline.png",
+    "lblSwipe": "img/swipe-text.png",
+    "title": "img/title.png",
+    "btnBook": "img/CTA-button.png"
+  },
+  "trackers": ["scratched","book"]
+}
