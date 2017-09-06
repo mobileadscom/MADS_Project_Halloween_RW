@@ -40,8 +40,8 @@
 
 #book {
   position: absolute;
-  bottom: 25px;
-  left: 7px;
+  bottom: 31px;
+  left: 44px;
   display: none;
   z-index: 101;
 }
