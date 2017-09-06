@@ -3,6 +3,12 @@
     height: 480px;
 }
 
+#ad-container {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
 #ad-content {
   position: absolute;
   top: 0;
@@ -34,7 +40,7 @@
 
 #book {
   position: absolute;
-  bottom: 9px;
+  bottom: 25px;
   left: 7px;
   display: none;
   z-index: 101;
