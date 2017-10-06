@@ -55,7 +55,7 @@ class AdUnit extends Mads {
     });
 
     this.elems.book.addEventListener('mousedown', () => {
-      console.log('sdfsdf');
+      this.tracker('E', 'landing');
       this.linkOpener('http://www.halloweenhorrornights.com.sg/tickets');
     });
 
